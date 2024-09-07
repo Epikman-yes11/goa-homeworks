@@ -10,5 +10,4 @@ if (num > 31):
 
 
 if (num < 25 ):
- 
    print(False)
