@@ -1,0 +1,39 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    animation: spin 2s ease-in-out, colorChange 2s ease-in-out 2s forwards;
+  }
+  
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Color change animation */
+  @keyframes colorChange {
+    0% {
+      background-color: #3498db;
+    }
+    100% {
+      background-color: #e74c3c;
+    }
+  }

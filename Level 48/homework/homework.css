@@ -1,0 +1,107 @@
+
+
+
+
+
+body {
+    background-color:  hsl(34, 30%, 95%);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240vh;
+    
+}
+
+
+.card {
+    
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    text-align: left;
+
+}
+
+
+.time {
+    background-color: hsl(30, 54%, 90%);
+    padding: 8%;
+    border-radius: 10px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-family: 'YoungSerif';
+}
+
+
+p {
+    font-family: 'Outfit';
+    font-size: 15px;
+}
+
+span {
+    font-weight: 700;
+    color: hsl(24, 5%, 18%) !important;
+}
+
+
+ul, ol {
+    padding-left: 0;
+}
+li {
+    margin-left: 1em;
+}
+li::marker {
+    text-align: center;
+}
+
+
+li::marker, h2, .value {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+.divider {
+    color: black !important;
+    width: 100%;
+    size: 4;
+}
+
+table, td, th {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+}
+.tdborder {
+    border-bottom: 1px solid black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10%;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}

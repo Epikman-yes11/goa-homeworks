@@ -11,7 +11,7 @@ car={
 try:
     x = car.values(4)
 
-except:
+except ValueError:
     print("no numbers in values")
 
 finally:
