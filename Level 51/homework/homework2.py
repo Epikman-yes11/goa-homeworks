@@ -6,4 +6,4 @@ def func():
    return odd_numbers_only //2
 
 
-odd_numbers_only = map(func,(odd_numbers_only // 2))
+odd_numbers_only = filter(func,(odd_numbers_only // 2))
