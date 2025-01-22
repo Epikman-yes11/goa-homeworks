@@ -1,0 +1,139 @@
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    font-family: sans-serif;
+    height: 50vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.box-1{
+    font-family: sans-serif;
+    height: 50vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+
+.container-1{
+    height: 15vh;
+    width: 320px;
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.button{
+    font-family: sans-serif;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 40%;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.button-2{
+    border-width: 3px;
+    border-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 40%;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+
+.button-1{
+    border-color: blue;
+    border-width: 3px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 120px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 40%;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.button-1:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.05);
+}
+
+.button-2:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    transform: scale(1.05);
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+
+.button-3{
+    border-color: blue;
+    border-width: 3px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 120px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 40%;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+
+.button-3:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.05);
+}

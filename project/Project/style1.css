@@ -1,0 +1,33 @@
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-color: rgb(0, 0, 0);
+    border-width: 30px;
+    border-radius: 5%;
+    height: 500px;
+    width: 700px;
+}
+
+.container{
+    font-family: sans-serif;
+    height: 750px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 29%;
+    align-items: center;
+    Justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    border-style: solid;
+    border-width: thick;
+}
