@@ -1,26 +1,14 @@
 
-
-let num = Number(prompt('Enter Num:'))
-
-switch(num){
+switch (choice) {
     case 1:
-        console.log('number is one');
+        console.log("Americano");
         break;
-
     case 2:
-        console.log('number is two');
+        console.log("Espresso");
         break;
     case 3:
-        console.log('number is three');
+        console.log("Cappuccino");
         break;
-    case 4:
-        console.log('number is four');
-        break;
-    case 4:
-        console.log('number is five');
-        break;
-
-    default: {
-        alert('invalid number')
-    }
+    default:
+        console.log("Unknown");
 }
