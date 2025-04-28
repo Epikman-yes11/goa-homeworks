@@ -1,1 +1,0 @@
-#nothin w3 school ნახეთოო
