@@ -1,0 +1,12 @@
+
+alert(" world will be destroyed in " + 10 + "seconds")
+alert(" world will be destroyed in " + 9 + "seconds")
+alert(" world will be destroyed in " + 8 + "seconds")
+alert(" world will be destroyed in " + 7 + "seconds")
+alert(" world will be destroyed in " + 6 + "seconds")
+alert(" world will be destroyed in " + 5 + "seconds")
+alert(" world will be destroyed in " + 4 + "seconds")
+alert(" world will be destroyed in " + 3 + "seconds")
+alert(" world will be destroyed in " + 2 + "seconds")
+alert(" world will be destroyed in " + 1 + "seconds")
+alert(" world will be destroyed in " + 0 + "seconds")

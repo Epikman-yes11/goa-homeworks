@@ -1,0 +1,8 @@
+
+img{
+    height: 200px;
+    border-radius: 30px;
+
+    box-shadow: 2px 15px 20px rgba(28, 185, 7, 0.5);
+    -webkit-box-shadow: 2px 15px 20px rgba(79, 184, 40, 0.5);
+}
